@@ -17,8 +17,8 @@ public class CardDealer
 {
    public static void main (String[] args)
    {
-      Card call = new Card("Hearts", 1000);
-      Card nineClubs = new Card("Clbs", 9);
+      Card call = new Card("diamonds", 5);
+      Card nineClubs = new Card("Clubs", 9);
       nineClubs.setSuit("diamonds");
    }
 }
