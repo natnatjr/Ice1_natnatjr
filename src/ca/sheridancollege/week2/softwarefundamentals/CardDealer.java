@@ -18,6 +18,7 @@ public class CardDealer
    public static void main (String[] args)
    {
       Card call = new Card("diamonds", 5);
+      Card lastCall = new Card("Spades", 8);
       Card nineClubs = new Card("Clubs", 9);
       nineClubs.setSuit("diamonds");
       System.out.println(call);
